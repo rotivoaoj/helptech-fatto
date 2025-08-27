@@ -10,7 +10,7 @@ export default function Roteadores() {
  useEffect(() => {
   async function carregarDados() {
     try {
-      const resposta = await fetch('http://192.168.15.8/helptech/listar_roteadores.php');
+      const resposta = await fetch('http://192.168.15.5/helptech/listar_roteadores.php');
       const dados = await resposta.json();
       setRoteadores(dados.dados); // <- aqui é o ajuste principal
     } catch (erro) {

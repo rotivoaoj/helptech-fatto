@@ -22,7 +22,7 @@ export default function Login() {
 
   const realizarLogin = async () => {
   try {
-    const resposta = await fetch('http://192.168.15.8/helptech/login.php', {
+    const resposta = await fetch('http://192.168.15.5/helptech/login.php', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: email.trim(), senha: senha.trim() }),

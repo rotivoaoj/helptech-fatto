@@ -10,6 +10,7 @@ import Roteadores from './componentes/TelaRoteadores/Roteadores';
 import Categorias from './componentes/TelaCategorias/Categorias.js';
 import Problemas from './componentes/TelaProblemas/Problemas.js';
 import Solucoes from './componentes/TelaSolucoes/Solucoes.js';
+import Ferramentas from './componentes/TelaFerramentas/Ferramentas.js';
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +22,7 @@ export default function App () {
         <Stack.Screen name= "Inicio" component = { Inicio } />
         <Stack.Screen name="Roteadores" component={Roteadores} />
         <Stack.Screen name= "Categorias" component = { Categorias } />
+        <Stack.Screen name= "Ferramentas" component = { Ferramentas } />
         <Stack.Screen name= "Problemas" component= { Problemas }/>
         <Stack.Screen name="Solucoes" component={ Solucoes } />
       </Stack.Navigator>

@@ -36,7 +36,7 @@ export default StyleSheet.create({
       height: 180,
       resizeMode: 'contain',
       opacity: 0.3,
-      marginTop: 150,
+      marginTop: 60,
     },
     botao_cat: {
       backgroundColor: '#c20000',
@@ -54,17 +54,26 @@ export default StyleSheet.create({
       alignItems: 'center',
       marginTop: 10,
     },
+    botao_tools: {
+    backgroundColor: '#c00',
+    padding: 15,
+    borderRadius: 10,
+    width: '60%',
+    alignItems: 'center',
+    marginTop: 47,
+    },
     textoBotao: {
       color: '#fff',
       fontWeight: 'bold',
       fontSize: 16,
       fontFamily: 'Julius-Sans-One',
+      textAlign: 'center',
     },
     fundo: {
       flex: 1,
     },
     suporte: {
-      marginTop: 20,
+      marginTop: 10,
       color: '#979797',
     },
     botao_rot: {

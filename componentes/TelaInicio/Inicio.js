@@ -28,6 +28,10 @@ export default function Inicio({navigation, route}) {
         style={estilo.botao_rot}>
       <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 16 }}>Ver Roteadores</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity style={estilo.botao_tools} onPress={() => navigation.navigate('Ferramentas')}>
+      <Text style={estilo.textoBotao}>🔧 Instruções de Uso de Ferramentas</Text>
+      </TouchableOpacity>
         
       <Image
         source={require('../../assets/sup.png')}
